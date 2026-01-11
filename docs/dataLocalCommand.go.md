@@ -1,28 +1,28 @@
-# `dataLocalCommand` Submodule <a name="`dataLocalCommand` Submodule" id="@cdktf/provider-local.dataLocalCommand"></a>
+# `dataLocalCommand` Submodule <a name="`dataLocalCommand` Submodule" id="@cdktn/provider-local.dataLocalCommand"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataLocalCommand <a name="DataLocalCommand" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand"></a>
+### DataLocalCommand <a name="DataLocalCommand" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.6.1/docs/data-sources/command local_command}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 datalocalcommand.NewDataLocalCommand(scope Construct, id *string, config DataLocalCommandConfig) DataLocalCommand
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig">DataLocalCommandConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig">DataLocalCommandConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig">DataLocalCommandConfig</a>
+- *Type:* <a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig">DataLocalCommandConfig</a>
 
 ---
 
@@ -50,31 +50,31 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetAllowNonZeroExitCode">ResetAllowNonZeroExitCode</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetArguments">ResetArguments</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetStdin">ResetStdin</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetWorkingDirectory">ResetWorkingDirectory</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetAllowNonZeroExitCode">ResetAllowNonZeroExitCode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetArguments">ResetArguments</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetStdin">ResetStdin</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetWorkingDirectory">ResetWorkingDirectory</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toString"></a>
 
 ```go
 func ToString() *string
@@ -82,25 +82,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -108,7 +108,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -116,7 +116,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -124,7 +124,7 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
@@ -132,13 +132,13 @@ func ToHclTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -146,145 +146,145 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ResetAllowNonZeroExitCode` <a name="ResetAllowNonZeroExitCode" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetAllowNonZeroExitCode"></a>
+##### `ResetAllowNonZeroExitCode` <a name="ResetAllowNonZeroExitCode" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetAllowNonZeroExitCode"></a>
 
 ```go
 func ResetAllowNonZeroExitCode()
 ```
 
-##### `ResetArguments` <a name="ResetArguments" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetArguments"></a>
+##### `ResetArguments` <a name="ResetArguments" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetArguments"></a>
 
 ```go
 func ResetArguments()
 ```
 
-##### `ResetStdin` <a name="ResetStdin" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetStdin"></a>
+##### `ResetStdin` <a name="ResetStdin" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetStdin"></a>
 
 ```go
 func ResetStdin()
 ```
 
-##### `ResetWorkingDirectory` <a name="ResetWorkingDirectory" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.resetWorkingDirectory"></a>
+##### `ResetWorkingDirectory` <a name="ResetWorkingDirectory" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.resetWorkingDirectory"></a>
 
 ```go
 func ResetWorkingDirectory()
@@ -294,17 +294,17 @@ func ResetWorkingDirectory()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsConstruct(x interface{}) *bool
 ```
@@ -325,7 +325,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -333,45 +333,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource"></a>
+##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsTerraformDataSource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -379,7 +379,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataLocalCommand to import
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -397,7 +397,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.6.
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -409,35 +409,35 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.6.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.exitCode">ExitCode</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stderr">Stderr</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdout">Stdout</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput">AllowNonZeroExitCodeInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.argumentsInput">ArgumentsInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.commandInput">CommandInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdinInput">StdinInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectoryInput">WorkingDirectoryInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode">AllowNonZeroExitCode</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.arguments">Arguments</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.command">Command</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdin">Stdin</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectory">WorkingDirectory</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.exitCode">ExitCode</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stderr">Stderr</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdout">Stdout</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput">AllowNonZeroExitCodeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.argumentsInput">ArgumentsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.commandInput">CommandInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdinInput">StdinInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectoryInput">WorkingDirectoryInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode">AllowNonZeroExitCode</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.arguments">Arguments</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.command">Command</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdin">Stdin</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectory">WorkingDirectory</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.node"></a>
 
 ```go
 func Node() Node
@@ -449,7 +449,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -459,7 +459,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -469,7 +469,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -479,7 +479,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -489,7 +489,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -499,7 +499,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -509,7 +509,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -519,7 +519,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -529,7 +529,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -539,7 +539,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -549,7 +549,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -559,7 +559,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `ExitCode`<sup>Required</sup> <a name="ExitCode" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.exitCode"></a>
+##### `ExitCode`<sup>Required</sup> <a name="ExitCode" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.exitCode"></a>
 
 ```go
 func ExitCode() *f64
@@ -569,7 +569,7 @@ func ExitCode() *f64
 
 ---
 
-##### `Stderr`<sup>Required</sup> <a name="Stderr" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stderr"></a>
+##### `Stderr`<sup>Required</sup> <a name="Stderr" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stderr"></a>
 
 ```go
 func Stderr() *string
@@ -579,7 +579,7 @@ func Stderr() *string
 
 ---
 
-##### `Stdout`<sup>Required</sup> <a name="Stdout" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdout"></a>
+##### `Stdout`<sup>Required</sup> <a name="Stdout" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdout"></a>
 
 ```go
 func Stdout() *string
@@ -589,7 +589,7 @@ func Stdout() *string
 
 ---
 
-##### `AllowNonZeroExitCodeInput`<sup>Optional</sup> <a name="AllowNonZeroExitCodeInput" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput"></a>
+##### `AllowNonZeroExitCodeInput`<sup>Optional</sup> <a name="AllowNonZeroExitCodeInput" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput"></a>
 
 ```go
 func AllowNonZeroExitCodeInput() interface{}
@@ -599,7 +599,7 @@ func AllowNonZeroExitCodeInput() interface{}
 
 ---
 
-##### `ArgumentsInput`<sup>Optional</sup> <a name="ArgumentsInput" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.argumentsInput"></a>
+##### `ArgumentsInput`<sup>Optional</sup> <a name="ArgumentsInput" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.argumentsInput"></a>
 
 ```go
 func ArgumentsInput() *[]*string
@@ -609,7 +609,7 @@ func ArgumentsInput() *[]*string
 
 ---
 
-##### `CommandInput`<sup>Optional</sup> <a name="CommandInput" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.commandInput"></a>
+##### `CommandInput`<sup>Optional</sup> <a name="CommandInput" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.commandInput"></a>
 
 ```go
 func CommandInput() *string
@@ -619,7 +619,7 @@ func CommandInput() *string
 
 ---
 
-##### `StdinInput`<sup>Optional</sup> <a name="StdinInput" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdinInput"></a>
+##### `StdinInput`<sup>Optional</sup> <a name="StdinInput" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdinInput"></a>
 
 ```go
 func StdinInput() *string
@@ -629,7 +629,7 @@ func StdinInput() *string
 
 ---
 
-##### `WorkingDirectoryInput`<sup>Optional</sup> <a name="WorkingDirectoryInput" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectoryInput"></a>
+##### `WorkingDirectoryInput`<sup>Optional</sup> <a name="WorkingDirectoryInput" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectoryInput"></a>
 
 ```go
 func WorkingDirectoryInput() *string
@@ -639,7 +639,7 @@ func WorkingDirectoryInput() *string
 
 ---
 
-##### `AllowNonZeroExitCode`<sup>Required</sup> <a name="AllowNonZeroExitCode" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode"></a>
+##### `AllowNonZeroExitCode`<sup>Required</sup> <a name="AllowNonZeroExitCode" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode"></a>
 
 ```go
 func AllowNonZeroExitCode() interface{}
@@ -649,7 +649,7 @@ func AllowNonZeroExitCode() interface{}
 
 ---
 
-##### `Arguments`<sup>Required</sup> <a name="Arguments" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.arguments"></a>
+##### `Arguments`<sup>Required</sup> <a name="Arguments" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.arguments"></a>
 
 ```go
 func Arguments() *[]*string
@@ -659,7 +659,7 @@ func Arguments() *[]*string
 
 ---
 
-##### `Command`<sup>Required</sup> <a name="Command" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.command"></a>
+##### `Command`<sup>Required</sup> <a name="Command" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.command"></a>
 
 ```go
 func Command() *string
@@ -669,7 +669,7 @@ func Command() *string
 
 ---
 
-##### `Stdin`<sup>Required</sup> <a name="Stdin" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.stdin"></a>
+##### `Stdin`<sup>Required</sup> <a name="Stdin" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdin"></a>
 
 ```go
 func Stdin() *string
@@ -679,7 +679,7 @@ func Stdin() *string
 
 ---
 
-##### `WorkingDirectory`<sup>Required</sup> <a name="WorkingDirectory" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectory"></a>
+##### `WorkingDirectory`<sup>Required</sup> <a name="WorkingDirectory" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectory"></a>
 
 ```go
 func WorkingDirectory() *string
@@ -693,11 +693,11 @@ func WorkingDirectory() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommand.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -709,12 +709,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataLocalCommandConfig <a name="DataLocalCommandConfig" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig"></a>
+### DataLocalCommandConfig <a name="DataLocalCommandConfig" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/datalocalcommand"
 
 &datalocalcommand.DataLocalCommandConfig {
 	Connection: interface{},
@@ -736,22 +736,22 @@ import "github.com/cdktf/cdktf-provider-local-go/local/v11/datalocalcommand"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.command">Command</a></code> | <code>*string</code> | Executable name to be discovered on the PATH or absolute path to executable. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode">AllowNonZeroExitCode</a></code> | <code>interface{}</code> | Indicates that the command returning a non-zero exit code should be treated as a successful execution. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.arguments">Arguments</a></code> | <code>*[]*string</code> | Arguments to be passed to the given command. Any `null` arguments will be removed from the list. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.stdin">Stdin</a></code> | <code>*string</code> | Data to be passed to the given command's standard input as a UTF-8 string. |
-| <code><a href="#@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.workingDirectory">WorkingDirectory</a></code> | <code>*string</code> | The directory path where the command should be executed, either an absolute path or relative to the Terraform working directory. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.command">Command</a></code> | <code>*string</code> | Executable name to be discovered on the PATH or absolute path to executable. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode">AllowNonZeroExitCode</a></code> | <code>interface{}</code> | Indicates that the command returning a non-zero exit code should be treated as a successful execution. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.arguments">Arguments</a></code> | <code>*[]*string</code> | Arguments to be passed to the given command. Any `null` arguments will be removed from the list. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.stdin">Stdin</a></code> | <code>*string</code> | Data to be passed to the given command's standard input as a UTF-8 string. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.workingDirectory">WorkingDirectory</a></code> | <code>*string</code> | The directory path where the command should be executed, either an absolute path or relative to the Terraform working directory. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -761,7 +761,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -771,7 +771,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -781,7 +781,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -791,7 +791,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -801,7 +801,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -811,7 +811,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -821,7 +821,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Command`<sup>Required</sup> <a name="Command" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.command"></a>
+##### `Command`<sup>Required</sup> <a name="Command" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.command"></a>
 
 ```go
 Command *string
@@ -835,7 +835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AllowNonZeroExitCode`<sup>Optional</sup> <a name="AllowNonZeroExitCode" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode"></a>
+##### `AllowNonZeroExitCode`<sup>Optional</sup> <a name="AllowNonZeroExitCode" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode"></a>
 
 ```go
 AllowNonZeroExitCode interface{}
@@ -851,7 +851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Arguments`<sup>Optional</sup> <a name="Arguments" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.arguments"></a>
+##### `Arguments`<sup>Optional</sup> <a name="Arguments" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.arguments"></a>
 
 ```go
 Arguments *[]*string
@@ -865,7 +865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Stdin`<sup>Optional</sup> <a name="Stdin" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.stdin"></a>
+##### `Stdin`<sup>Optional</sup> <a name="Stdin" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.stdin"></a>
 
 ```go
 Stdin *string
@@ -881,7 +881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `WorkingDirectory`<sup>Optional</sup> <a name="WorkingDirectory" id="@cdktf/provider-local.dataLocalCommand.DataLocalCommandConfig.property.workingDirectory"></a>
+##### `WorkingDirectory`<sup>Optional</sup> <a name="WorkingDirectory" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.workingDirectory"></a>
 
 ```go
 WorkingDirectory *string
