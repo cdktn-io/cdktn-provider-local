@@ -1,7 +1,7 @@
 
-# CDKTF prebuilt bindings for hashicorp/local provider version 2.6.1
+# CDKTF prebuilt bindings for hashicorp/local provider version 2.6.2
 
-This repo builds and publishes the [Terraform local provider](https://registry.terraform.io/providers/hashicorp/local/2.6.1/docs) bindings for [CDK for Terraform](https://cdk.tf).
+This repo builds and publishes the [Terraform local provider](https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs) bindings for [CDK for Terraform](https://cdk.tf).
 
 ## Available Packages
 
@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-local]
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Local](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Local).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Local](https://www.nuget.org/packages/Io.Cdktn.Providers.Local).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Local`
+`dotnet add package Io.Cdktn.Providers.Local`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-local](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-local).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-local](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-local).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-local</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
@@ -63,7 +63,7 @@ This project is explicitly not tracking the Terraform local provider version 1:1
 These are the upstream dependencies:
 
 - [CDK for Terraform](https://cdk.tf) - Last official release
-- [Terraform local provider](https://registry.terraform.io/providers/hashicorp/local/2.6.1)
+- [Terraform local provider](https://registry.terraform.io/providers/hashicorp/local/2.6.2)
 - [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
