@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command
+// https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface DataLocalCommandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates that the command returning a non-zero exit code should be treated as a successful execution. Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#allow_non_zero_exit_code DataLocalCommand#allow_non_zero_exit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#allow_non_zero_exit_code DataLocalCommand#allow_non_zero_exit_code}
   */
   readonly allowNonZeroExitCode?: boolean | cdktf.IResolvable;
   /**
   * Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#arguments DataLocalCommand#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#arguments DataLocalCommand#arguments}
   */
   readonly arguments?: string[];
   /**
   * Executable name to be discovered on the PATH or absolute path to executable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#command DataLocalCommand#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#command DataLocalCommand#command}
   */
   readonly command: string;
   /**
   * Data to be passed to the given command's standard input as a UTF-8 string. [Terraform values](https://developer.hashicorp.com/terraform/language/expressions/types) can be encoded by any Terraform encode function, for example, [`jsonencode`](https://developer.hashicorp.com/terraform/language/functions/jsonencode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#stdin DataLocalCommand#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#stdin DataLocalCommand#stdin}
   */
   readonly stdin?: string;
   /**
   * The directory path where the command should be executed, either an absolute path or relative to the Terraform working directory. If not provided, defaults to the Terraform working directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#working_directory DataLocalCommand#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#working_directory DataLocalCommand#working_directory}
   */
   readonly workingDirectory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command local_command}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command local_command}
 */
 export class DataLocalCommand extends cdktf.TerraformDataSource {
 
@@ -61,7 +61,7 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLocalCommand to import
-  * @param importFromId The id of the existing DataLocalCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLocalCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLocalCommand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/local/2.6.2/docs/data-sources/command local_command} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command local_command} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,7 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
       terraformResourceType: 'local_command',
       terraformGeneratorMetadata: {
         providerName: 'local',
-        providerVersion: '2.6.2',
+        providerVersion: '2.7.0',
         providerVersionConstraint: '~> 2.1'
       },
       provider: config.provider,
