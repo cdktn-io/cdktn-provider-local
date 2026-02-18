@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.7.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.provider.LocalProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 provider.NewLocalProvider(scope Construct, id *string, config LocalProviderConfig) LocalProvider
 ```
@@ -144,14 +144,14 @@ func ResetAlias()
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.isTerraformProvider">IsTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.provider.LocalProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a LocalProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a LocalProvider resource upon running "cdktn plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.provider.LocalProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 provider.LocalProvider_IsConstruct(x interface{}) *bool
 ```
@@ -183,7 +183,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.provider.LocalProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 provider.LocalProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -197,7 +197,7 @@ provider.LocalProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-local.provider.LocalProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 provider.LocalProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -211,12 +211,12 @@ provider.LocalProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-local.provider.LocalProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 provider.LocalProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a LocalProvider resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a LocalProvider resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-local.provider.LocalProvider.generateConfigForImport.parameter.scope"></a>
 
@@ -246,7 +246,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-local.provider.LocalProvider.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the LocalProvider to import is found.
 
@@ -257,12 +257,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.metaAttributes">MetaAttributes</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
@@ -287,7 +287,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -337,7 +337,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -396,7 +396,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-local.provider.LocalProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v11/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v12/provider"
 
 &provider.LocalProviderConfig {
 	Alias: *string,
