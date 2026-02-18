@@ -297,7 +297,7 @@ public resetWorkingDirectory(): void
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a DataLocalCommand resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -369,7 +369,7 @@ import { dataLocalCommand } from '@cdktn/provider-local'
 dataLocalCommand.DataLocalCommand.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a DataLocalCommand resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.scope"></a>
 
@@ -399,7 +399,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the DataLocalCommand to import is found.
 
@@ -410,26 +410,26 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.exitCode">exitCode</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stderr">stderr</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdout">stdout</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput">allowNonZeroExitCodeInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCodeInput">allowNonZeroExitCodeInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.argumentsInput">argumentsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.commandInput">commandInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdinInput">stdinInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.workingDirectoryInput">workingDirectoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode">allowNonZeroExitCode</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.allowNonZeroExitCode">allowNonZeroExitCode</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.arguments">arguments</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.command">command</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommand.property.stdin">stdin</a></code> | <code>string</code> | *No description.* |
@@ -455,7 +455,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -505,7 +505,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -515,7 +515,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -535,7 +535,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -545,7 +545,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -555,7 +555,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -595,7 +595,7 @@ public readonly stdout: string;
 public readonly allowNonZeroExitCodeInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -645,7 +645,7 @@ public readonly workingDirectoryInput: string;
 public readonly allowNonZeroExitCode: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -723,15 +723,15 @@ const dataLocalCommandConfig: dataLocalCommand.DataLocalCommandConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.command">command</a></code> | <code>string</code> | Executable name to be discovered on the PATH or absolute path to executable. |
-| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode">allowNonZeroExitCode</a></code> | <code>boolean \| cdktf.IResolvable</code> | Indicates that the command returning a non-zero exit code should be treated as a successful execution. |
+| <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.allowNonZeroExitCode">allowNonZeroExitCode</a></code> | <code>boolean \| cdktn.IResolvable</code> | Indicates that the command returning a non-zero exit code should be treated as a successful execution. |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.arguments">arguments</a></code> | <code>string[]</code> | Arguments to be passed to the given command. Any `null` arguments will be removed from the list. |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.stdin">stdin</a></code> | <code>string</code> | Data to be passed to the given command's standard input as a UTF-8 string. |
 | <code><a href="#@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | The directory path where the command should be executed, either an absolute path or relative to the Terraform working directory. |
@@ -744,7 +744,7 @@ const dataLocalCommandConfig: dataLocalCommand.DataLocalCommandConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -754,7 +754,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -764,7 +764,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -774,7 +774,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -784,7 +784,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -794,7 +794,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -804,7 +804,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -828,7 +828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly allowNonZeroExitCode: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Indicates that the command returning a non-zero exit code should be treated as a successful execution.
 
