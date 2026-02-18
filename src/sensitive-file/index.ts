@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface SensitiveFileConfig extends cdktf.TerraformMetaArguments {
+export interface SensitiveFileConfig extends cdktn.TerraformMetaArguments {
   /**
   * Sensitive Content to store in the file, expected to be a UTF-8 encoded string.
   *  Conflicts with `content_base64` and `source`.
@@ -65,7 +65,7 @@ export interface SensitiveFileConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/resources/sensitive_file local_sensitive_file}
 */
-export class SensitiveFile extends cdktf.TerraformResource {
+export class SensitiveFile extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -76,14 +76,14 @@ export class SensitiveFile extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a SensitiveFile resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a SensitiveFile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensitiveFile to import
   * @param importFromId The id of the existing SensitiveFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/resources/sensitive_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensitiveFile to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "local_sensitive_file", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "local_sensitive_file", importId: importFromId, provider });
       }
 
   // ===========
@@ -259,49 +259,49 @@ export class SensitiveFile extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      content: cdktf.stringToTerraform(this._content),
-      content_base64: cdktf.stringToTerraform(this._contentBase64),
-      directory_permission: cdktf.stringToTerraform(this._directoryPermission),
-      file_permission: cdktf.stringToTerraform(this._filePermission),
-      filename: cdktf.stringToTerraform(this._filename),
-      source: cdktf.stringToTerraform(this._source),
+      content: cdktn.stringToTerraform(this._content),
+      content_base64: cdktn.stringToTerraform(this._contentBase64),
+      directory_permission: cdktn.stringToTerraform(this._directoryPermission),
+      file_permission: cdktn.stringToTerraform(this._filePermission),
+      filename: cdktn.stringToTerraform(this._filename),
+      source: cdktn.stringToTerraform(this._source),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       content: {
-        value: cdktf.stringToHclTerraform(this._content),
+        value: cdktn.stringToHclTerraform(this._content),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       content_base64: {
-        value: cdktf.stringToHclTerraform(this._contentBase64),
+        value: cdktn.stringToHclTerraform(this._contentBase64),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       directory_permission: {
-        value: cdktf.stringToHclTerraform(this._directoryPermission),
+        value: cdktn.stringToHclTerraform(this._directoryPermission),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       file_permission: {
-        value: cdktf.stringToHclTerraform(this._filePermission),
+        value: cdktn.stringToHclTerraform(this._filePermission),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       filename: {
-        value: cdktf.stringToHclTerraform(this._filename),
+        value: cdktn.stringToHclTerraform(this._filename),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       source: {
-        value: cdktf.stringToHclTerraform(this._source),
+        value: cdktn.stringToHclTerraform(this._source),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

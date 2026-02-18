@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataLocalCommandConfig extends cdktf.TerraformMetaArguments {
+export interface DataLocalCommandConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates that the command returning a non-zero exit code should be treated as a successful execution. Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#allow_non_zero_exit_code DataLocalCommand#allow_non_zero_exit_code}
   */
-  readonly allowNonZeroExitCode?: boolean | cdktf.IResolvable;
+  readonly allowNonZeroExitCode?: boolean | cdktn.IResolvable;
   /**
   * Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
   *
@@ -47,7 +47,7 @@ export interface DataLocalCommandConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command local_command}
 */
-export class DataLocalCommand extends cdktf.TerraformDataSource {
+export class DataLocalCommand extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -58,14 +58,14 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataLocalCommand resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataLocalCommand resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLocalCommand to import
   * @param importFromId The id of the existing DataLocalCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.7.0/docs/data-sources/command#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLocalCommand to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "local_command", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "local_command", importId: importFromId, provider });
       }
 
   // ===========
@@ -107,11 +107,11 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
   // ==========
 
   // allow_non_zero_exit_code - computed: false, optional: true, required: false
-  private _allowNonZeroExitCode?: boolean | cdktf.IResolvable; 
+  private _allowNonZeroExitCode?: boolean | cdktn.IResolvable; 
   public get allowNonZeroExitCode() {
     return this.getBooleanAttribute('allow_non_zero_exit_code');
   }
-  public set allowNonZeroExitCode(value: boolean | cdktf.IResolvable) {
+  public set allowNonZeroExitCode(value: boolean | cdktn.IResolvable) {
     this._allowNonZeroExitCode = value;
   }
   public resetAllowNonZeroExitCode() {
@@ -204,42 +204,42 @@ export class DataLocalCommand extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_non_zero_exit_code: cdktf.booleanToTerraform(this._allowNonZeroExitCode),
-      arguments: cdktf.listMapper(cdktf.stringToTerraform, false)(this._arguments),
-      command: cdktf.stringToTerraform(this._command),
-      stdin: cdktf.stringToTerraform(this._stdin),
-      working_directory: cdktf.stringToTerraform(this._workingDirectory),
+      allow_non_zero_exit_code: cdktn.booleanToTerraform(this._allowNonZeroExitCode),
+      arguments: cdktn.listMapper(cdktn.stringToTerraform, false)(this._arguments),
+      command: cdktn.stringToTerraform(this._command),
+      stdin: cdktn.stringToTerraform(this._stdin),
+      working_directory: cdktn.stringToTerraform(this._workingDirectory),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_non_zero_exit_code: {
-        value: cdktf.booleanToHclTerraform(this._allowNonZeroExitCode),
+        value: cdktn.booleanToHclTerraform(this._allowNonZeroExitCode),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       arguments: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._arguments),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._arguments),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       command: {
-        value: cdktf.stringToHclTerraform(this._command),
+        value: cdktn.stringToHclTerraform(this._command),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       stdin: {
-        value: cdktf.stringToHclTerraform(this._stdin),
+        value: cdktn.stringToHclTerraform(this._stdin),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       working_directory: {
-        value: cdktf.stringToHclTerraform(this._workingDirectory),
+        value: cdktn.stringToHclTerraform(this._workingDirectory),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
