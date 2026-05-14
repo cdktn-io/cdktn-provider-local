@@ -4,7 +4,7 @@
 
 ### DataLocalCommand <a name="DataLocalCommand" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command local_command}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command local_command}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer"></a>
 
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataLocalCommand to import
 
 The id of the existing DataLocalCommand that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,7 +853,7 @@ public string Command { get; set; }
 
 Executable name to be discovered on the PATH or absolute path to executable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#command DataLocalCommand#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#command DataLocalCommand#command}
 
 ---
 
@@ -869,7 +869,7 @@ Indicates that the command returning a non-zero exit code should be treated as a
 
 Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#allow_non_zero_exit_code DataLocalCommand#allow_non_zero_exit_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#allow_non_zero_exit_code DataLocalCommand#allow_non_zero_exit_code}
 
 ---
 
@@ -883,7 +883,7 @@ public string[] Arguments { get; set; }
 
 Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#arguments DataLocalCommand#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#arguments DataLocalCommand#arguments}
 
 ---
 
@@ -899,7 +899,7 @@ Data to be passed to the given command's standard input as a UTF-8 string.
 
 [Terraform values](https://developer.hashicorp.com/terraform/language/expressions/types) can be encoded by any Terraform encode function, for example, [`jsonencode`](https://developer.hashicorp.com/terraform/language/functions/jsonencode).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#stdin DataLocalCommand#stdin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#stdin DataLocalCommand#stdin}
 
 ---
 
@@ -915,7 +915,7 @@ The directory path where the command should be executed, either an absolute path
 
 If not provided, defaults to the Terraform working directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs/data-sources/command#working_directory DataLocalCommand#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/data-sources/command#working_directory DataLocalCommand#working_directory}
 
 ---
 
