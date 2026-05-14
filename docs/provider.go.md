@@ -4,7 +4,7 @@
 
 ### LocalProvider <a name="LocalProvider" id="@cdktn/provider-local.provider.LocalProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs local}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs local}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.provider.LocalProvider.Initializer"></a>
 
@@ -262,7 +262,7 @@ The construct id used in the generated config for the LocalProvider to import.
 
 The id of the existing LocalProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -443,7 +443,7 @@ Alias *string
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.8.0/docs#alias LocalProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs#alias LocalProvider#alias}
 
 ---
 
