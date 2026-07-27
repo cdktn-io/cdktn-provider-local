@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 datalocalcommand.NewDataLocalCommand(scope Construct, id *string, config DataLocalCommandConfig) DataLocalCommand
 ```
@@ -326,7 +326,7 @@ func ResetWorkingDirectory()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsConstruct(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsTerraformElement(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datalocalcommand.DataLocalCommand_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -386,7 +386,7 @@ datalocalcommand.DataLocalCommand_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommand.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 datalocalcommand.DataLocalCommand_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -736,7 +736,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-local.dataLocalCommand.DataLocalCommandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalcommand"
 
 &datalocalcommand.DataLocalCommandConfig {
 	Connection: interface{},

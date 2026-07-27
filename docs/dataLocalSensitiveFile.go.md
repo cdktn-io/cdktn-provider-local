@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 datalocalsensitivefile.NewDataLocalSensitiveFile(scope Construct, id *string, config DataLocalSensitiveFileConfig) DataLocalSensitiveFile
 ```
@@ -298,7 +298,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 datalocalsensitivefile.DataLocalSensitiveFile_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 datalocalsensitivefile.DataLocalSensitiveFile_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ datalocalsensitivefile.DataLocalSensitiveFile_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 datalocalsensitivefile.DataLocalSensitiveFile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datalocalsensitivefile.DataLocalSensitiveFile_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 datalocalsensitivefile.DataLocalSensitiveFile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -686,7 +686,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-local.dataLocalSensitiveFile.DataLocalSensitiveFileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/datalocalsensitivefile"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/datalocalsensitivefile"
 
 &datalocalsensitivefile.DataLocalSensitiveFileConfig {
 	Connection: interface{},
