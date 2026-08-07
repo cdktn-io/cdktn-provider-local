@@ -11,7 +11,7 @@ Provider-defined functions of the local provider.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.providerFunctions.LocalProviderFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/providerfunctions"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/providerfunctions"
 
 providerfunctions.NewLocalProviderFunctions(providerLocalName *string) LocalProviderFunctions
 ```
