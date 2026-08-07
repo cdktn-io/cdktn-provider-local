@@ -293,6 +293,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>io.cdktn.cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.alias">alias</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.functions">functions</a></code> | <code>io.cdktn.providers.local.provider_functions.LocalProviderFunctions</code> | Provider-defined functions of the local provider. |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.aliasInput">aliasInput</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
@@ -386,6 +387,18 @@ public java.lang.String getAlias();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-local.provider.LocalProvider.property.functions"></a>
+
+```java
+public LocalProviderFunctions getFunctions();
+```
+
+- *Type:* io.cdktn.providers.local.provider_functions.LocalProviderFunctions
+
+Provider-defined functions of the local provider.
 
 ---
 

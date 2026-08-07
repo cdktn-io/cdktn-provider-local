@@ -7,8 +7,10 @@ The following submodules are available:
 - [dataLocalCommand](./dataLocalCommand.typescript.md)
 - [dataLocalFile](./dataLocalFile.typescript.md)
 - [dataLocalSensitiveFile](./dataLocalSensitiveFile.typescript.md)
+- [ephemeralLocalCommand](./ephemeralLocalCommand.typescript.md)
 - [file](./file.typescript.md)
 - [provider](./provider.typescript.md)
+- [providerFunctions](./providerFunctions.typescript.md)
 - [sensitiveFile](./sensitiveFile.typescript.md)
 
 

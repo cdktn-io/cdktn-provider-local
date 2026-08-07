@@ -7,8 +7,10 @@ The following submodules are available:
 - [dataLocalCommand](./dataLocalCommand.go.md)
 - [dataLocalFile](./dataLocalFile.go.md)
 - [dataLocalSensitiveFile](./dataLocalSensitiveFile.go.md)
+- [ephemeralLocalCommand](./ephemeralLocalCommand.go.md)
 - [file](./file.go.md)
 - [provider](./provider.go.md)
+- [providerFunctions](./providerFunctions.go.md)
 - [sensitiveFile](./sensitiveFile.go.md)
 
 

@@ -9,5 +9,7 @@ export * as sensitiveFile from './sensitive-file/index';
 export * as dataLocalCommand from './data-local-command/index';
 export * as dataLocalFile from './data-local-file/index';
 export * as dataLocalSensitiveFile from './data-local-sensitive-file/index';
+export * as ephemeralLocalCommand from './ephemeral-local-command/index';
 export * as provider from './provider/index';
+export * as providerFunctions from './provider-functions/index';
 

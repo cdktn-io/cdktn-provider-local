@@ -9,5 +9,7 @@ Object.defineProperty(exports, 'sensitiveFile', { get: function () { return requ
 Object.defineProperty(exports, 'dataLocalCommand', { get: function () { return require('./data-local-command'); } });
 Object.defineProperty(exports, 'dataLocalFile', { get: function () { return require('./data-local-file'); } });
 Object.defineProperty(exports, 'dataLocalSensitiveFile', { get: function () { return require('./data-local-sensitive-file'); } });
+Object.defineProperty(exports, 'ephemeralLocalCommand', { get: function () { return require('./ephemeral-local-command'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
+Object.defineProperty(exports, 'providerFunctions', { get: function () { return require('./provider-functions'); } });
 
