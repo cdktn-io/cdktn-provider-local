@@ -287,6 +287,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-local-go/local/v13.providerFunctions.LocalProviderFunctions</code> | Provider-defined functions of the local provider. |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
 
 ---
@@ -380,6 +381,18 @@ func Alias() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `Functions`<sup>Required</sup> <a name="Functions" id="@cdktn/provider-local.provider.LocalProvider.property.functions"></a>
+
+```go
+func Functions() LocalProviderFunctions
+```
+
+- *Type:* github.com/cdktn-io/cdktn-provider-local-go/local/v13.providerFunctions.LocalProviderFunctions
+
+Provider-defined functions of the local provider.
 
 ---
 

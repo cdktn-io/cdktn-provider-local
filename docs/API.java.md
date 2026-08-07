@@ -7,8 +7,10 @@ The following submodules are available:
 - [dataLocalCommand](./dataLocalCommand.java.md)
 - [dataLocalFile](./dataLocalFile.java.md)
 - [dataLocalSensitiveFile](./dataLocalSensitiveFile.java.md)
+- [ephemeralLocalCommand](./ephemeralLocalCommand.java.md)
 - [file](./file.java.md)
 - [provider](./provider.java.md)
+- [providerFunctions](./providerFunctions.java.md)
 - [sensitiveFile](./sensitiveFile.java.md)
 
 

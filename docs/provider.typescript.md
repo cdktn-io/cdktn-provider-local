@@ -287,6 +287,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.functions">functions</a></code> | <code>@cdktn/provider-local.providerFunctions.LocalProviderFunctions</code> | Provider-defined functions of the local provider. |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -380,6 +381,18 @@ public readonly alias: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-local.provider.LocalProvider.property.functions"></a>
+
+```typescript
+public readonly functions: LocalProviderFunctions;
+```
+
+- *Type:* @cdktn/provider-local.providerFunctions.LocalProviderFunctions
+
+Provider-defined functions of the local provider.
 
 ---
 
