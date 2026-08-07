@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.provider.LocalProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 provider.NewLocalProvider(scope Construct, id *string, config LocalProviderConfig) LocalProvider
 ```
@@ -173,7 +173,7 @@ func ResetAlias()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.provider.LocalProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 provider.LocalProvider_IsConstruct(x interface{}) *bool
 ```
@@ -205,7 +205,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.provider.LocalProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 provider.LocalProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -219,7 +219,7 @@ provider.LocalProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-local.provider.LocalProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 provider.LocalProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -233,7 +233,7 @@ provider.LocalProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-local.provider.LocalProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 provider.LocalProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -287,7 +287,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-local-go/local/v13.providerFunctions.LocalProviderFunctions</code> | Provider-defined functions of the local provider. |
+| <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-local-go/local/v14.providerFunctions.LocalProviderFunctions</code> | Provider-defined functions of the local provider. |
 | <code><a href="#@cdktn/provider-local.provider.LocalProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
 
 ---
@@ -390,7 +390,7 @@ func Alias() *string
 func Functions() LocalProviderFunctions
 ```
 
-- *Type:* github.com/cdktn-io/cdktn-provider-local-go/local/v13.providerFunctions.LocalProviderFunctions
+- *Type:* github.com/cdktn-io/cdktn-provider-local-go/local/v14.providerFunctions.LocalProviderFunctions
 
 Provider-defined functions of the local provider.
 
@@ -431,7 +431,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-local.provider.LocalProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/provider"
 
 &provider.LocalProviderConfig {
 	Alias: *string,

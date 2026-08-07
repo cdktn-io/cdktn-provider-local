@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/ephemerallocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/ephemerallocalcommand"
 
 ephemerallocalcommand.NewEphemeralLocalCommand(scope Construct, id *string, config EphemeralLocalCommandConfig) EphemeralLocalCommand
 ```
@@ -323,7 +323,7 @@ func ResetWorkingDirectory()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/ephemerallocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/ephemerallocalcommand"
 
 ephemerallocalcommand.EphemeralLocalCommand_IsConstruct(x interface{}) *bool
 ```
@@ -355,7 +355,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/ephemerallocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/ephemerallocalcommand"
 
 ephemerallocalcommand.EphemeralLocalCommand_IsTerraformElement(x interface{}) *bool
 ```
@@ -369,7 +369,7 @@ ephemerallocalcommand.EphemeralLocalCommand_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/ephemerallocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/ephemerallocalcommand"
 
 ephemerallocalcommand.EphemeralLocalCommand_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -689,7 +689,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommandConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-local-go/local/v13/ephemerallocalcommand"
+import "github.com/cdktn-io/cdktn-provider-local-go/local/v14/ephemerallocalcommand"
 
 &ephemerallocalcommand.EphemeralLocalCommandConfig {
 	Count: interface{},
