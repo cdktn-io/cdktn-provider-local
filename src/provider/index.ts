@@ -20,6 +20,7 @@ export interface LocalProviderConfig {
   readonly alias?: string;
 }
 
+import { LocalProviderFunctions } from '../provider-functions/index';
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs local}
 */
@@ -86,6 +87,21 @@ export class LocalProvider extends cdktn.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get aliasInput() {
     return this._alias;
+  }
+
+  // ==========================
+  // PROVIDER-DEFINED FUNCTIONS
+  // ==========================
+  private _functions?: LocalProviderFunctions;
+
+  /**
+  * Provider-defined functions of the local provider.
+  */
+  public get functions(): LocalProviderFunctions {
+    if (!this._functions) {
+      this._functions = new LocalProviderFunctions(this.terraformResourceType);
+    }
+    return this._functions;
   }
 
   // =========
