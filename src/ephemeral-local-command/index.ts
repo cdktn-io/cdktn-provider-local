@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command
+// https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface EphemeralLocalCommandConfig extends cdktn.TerraformEphemeralMet
   /**
   * Indicates that the command returning a non-zero exit code should be treated as a successful execution. Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
   */
   readonly allowNonZeroExitCode?: boolean | cdktn.IResolvable;
   /**
   * Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
   */
   readonly arguments?: string[];
   /**
   * Executable name to be discovered on the PATH or absolute path to executable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
   */
   readonly command: string;
   /**
   * Data to be passed to the given command's standard input as a UTF-8 string. [Terraform values](https://developer.hashicorp.com/terraform/language/expressions/types) can be encoded by any Terraform encode function, for example, [`jsonencode`](https://developer.hashicorp.com/terraform/language/functions/jsonencode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
   */
   readonly stdin?: string;
   /**
   * The directory path where the command should be executed, either an absolute path or relative to the Terraform working directory. If not provided, defaults to the Terraform working directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
   */
   readonly workingDirectory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command local_command}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command local_command}
 */
 export class EphemeralLocalCommand extends cdktn.TerraformEphemeralResource {
 
@@ -59,7 +59,7 @@ export class EphemeralLocalCommand extends cdktn.TerraformEphemeralResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command local_command} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command local_command} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,7 @@ export class EphemeralLocalCommand extends cdktn.TerraformEphemeralResource {
       terraformResourceType: 'local_command',
       terraformGeneratorMetadata: {
         providerName: 'local',
-        providerVersion: '2.9.0',
+        providerVersion: '2.9.1',
         providerVersionConstraint: '~> 2.1'
       },
       provider: config.provider,
