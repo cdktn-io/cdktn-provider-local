@@ -4,7 +4,7 @@
 
 ### EphemeralLocalCommand <a name="EphemeralLocalCommand" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command local_command}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command local_command}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-local.ephemeralLocalCommand.EphemeralLocalCommand.Initializer"></a>
 
@@ -96,7 +96,7 @@ Must be unique amongst siblings in the same scope
 
 Executable name to be discovered on the PATH or absolute path to executable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
 
 ---
 
@@ -108,7 +108,7 @@ Indicates that the command returning a non-zero exit code should be treated as a
 
 Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
 
 ---
 
@@ -130,7 +130,7 @@ Data to be passed to the given command's standard input as a UTF-8 string.
 
 [Terraform values](https://developer.hashicorp.com/terraform/language/expressions/types) can be encoded by any Terraform encode function, for example, [`jsonencode`](https://developer.hashicorp.com/terraform/language/functions/jsonencode).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
 
 ---
 
@@ -142,7 +142,7 @@ The directory path where the command should be executed, either an absolute path
 
 If not provided, defaults to the Terraform working directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
 
 ---
 
@@ -882,7 +882,7 @@ public java.lang.String getCommand();
 
 Executable name to be discovered on the PATH or absolute path to executable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#command EphemeralLocalCommand#command}
 
 ---
 
@@ -898,7 +898,7 @@ Indicates that the command returning a non-zero exit code should be treated as a
 
 Further assertions can be made of the `exit_code` value with the [`check` block](https://developer.hashicorp.com/terraform/language/block/check). Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#allow_non_zero_exit_code EphemeralLocalCommand#allow_non_zero_exit_code}
 
 ---
 
@@ -912,7 +912,7 @@ public java.util.List<java.lang.String> getArguments();
 
 Arguments to be passed to the given command. Any `null` arguments will be removed from the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#arguments EphemeralLocalCommand#arguments}
 
 ---
 
@@ -928,7 +928,7 @@ Data to be passed to the given command's standard input as a UTF-8 string.
 
 [Terraform values](https://developer.hashicorp.com/terraform/language/expressions/types) can be encoded by any Terraform encode function, for example, [`jsonencode`](https://developer.hashicorp.com/terraform/language/functions/jsonencode).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#stdin EphemeralLocalCommand#stdin}
 
 ---
 
@@ -944,7 +944,7 @@ The directory path where the command should be executed, either an absolute path
 
 If not provided, defaults to the Terraform working directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.0/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/local/2.9.1/docs/ephemeral-resources/command#working_directory EphemeralLocalCommand#working_directory}
 
 ---
 
